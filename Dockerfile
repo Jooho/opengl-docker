@@ -32,7 +32,7 @@ RUN sed -i '/\/etc\/X11\/xinit\/xinitrc-common/a [ -x /usr/bin/firefox ] && /usr
 # Sample Source
 ADD ./sources/example.c ${HOME}/example.c
 
-RUN gcc ${HOME}/example.c -o examplePic -L/usr/X11R6/lib/ -lGL -lGLU -lglut 
+RUN gcc ${HOME}/example.c -o ${HOME}/examplePic -L/usr/X11R6/lib/ -lGL -lGLU -lglut 
 
 WORKDIR ${HOME}
 
