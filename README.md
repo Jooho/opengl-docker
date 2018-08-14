@@ -28,3 +28,9 @@ On terminal inside container, execute below command
 ![alt text][sample]
 
 [sample]: ./opengl-example.png
+
+
+
+## Reference
+https://www.opengl.org/archives/resources/code/samples/glut_examples/examples/examples.html
+https://github.com/CentOS/CentOS-Dockerfiles/blob/master/firefox/centos6/Dockerfile
