@@ -25,5 +25,6 @@ On terminal inside container, execute below command
 ./examplePic
 ```
 
-![alt text][logo]
+![alt text][sample]
+
 [sample]: ./opengl-example.png
